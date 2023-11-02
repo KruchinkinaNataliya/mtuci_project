@@ -38,7 +38,7 @@ html {
     padding: 9px 30px;
 }
 .header__content{
-    background-image: url(C:/Users/natak/mtuci_project/static/img/header_content-bg.png);
+    background-image: url(../../static/img/header_content-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 99px 0 245px;
