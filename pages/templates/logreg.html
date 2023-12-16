@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Flats</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../../static/css/logreg.css">
+    </head>
+    <body>
+       <div class="wrapper">
+          <div class="title-text">
+             <div class="title login">
+                Вход
+             </div>
+             <div class="title signup">
+                Регистрация
+             </div>
+          </div>
+          <div class="form-container">
+             <div class="slide-controls">
+                <input type="radio" name="slide" id="login" checked>
+                <input type="radio" name="slide" id="signup">
+                <label for="login" class="slide login">Вход</label>
+                <label for="signup" class="slide signup">Регистрация</label>
+                <div class="slider-tab"></div>
+             </div>
+             <div class="form-inner">
+                <form action="#" class="login" method="post">
+                   <div class="field">
+                      <input name="telephone"  type="number" placeholder="Контактный телефон" required>
+                   </div>
+                   <div class="field">
+                      <input name="password"  type="password" pattern="[A-Za-z0-9@?_!]{6,25}" placeholder="Пароль" required>
+                   </div>
+                   <div class="pass-link">
+                      <a href="#">Забыли пароль?</a>
+                   </div>
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input name="login" type="submit" value="Войти">
+                   </div>
+                   <div class="signup-link">
+                      Еще нет аккаунта? <a href="">Зарегистрироваться</a>
+                   </div>
+                </form>
+                <form action="#" class="registration" method="post">
+                   <div class="field">
+                      <input name="username"  type="text" placeholder="Имя" required>
+                   </div>
+                   <div class="field">
+                      <input name="surname"  type="text" placeholder="Фамилия" required>
+                   </div>
+                   <div class="field">
+                      <input name="telephone"  type="number" placeholder="Контактный телефон" required>
+                   </div>
+                   <div class="field">
+                      <input name="email"  type="email" multiple placeholder="Email" required>
+                   </div>
+                   <div class="field">
+                      <input  id="password" type="password" name="password" pattern="[A-Za-z0-9@?_!]{6,25}" onChange="onChange()" placeholder="Пароль (латиница, цифры, @?_!)" required>
+                   </div>
+                   <div class="field">
+                      <input id="repeat_password" type="password"  onChange="onChange()" placeholder="Повторите пароль" required>
+                   </div>
+                   <div class="field btn">
+                      <div class="btn-layer"></div>
+                      <input type="submit" name="signup" value="Зарегистрироваться">
+                   </div>
+                </form>
+             </div>
+          </div>
+       </div>
+       <script src="../../static/js/logreg.js"></script>
+   </body>
+</html>
