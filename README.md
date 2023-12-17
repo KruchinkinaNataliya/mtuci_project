@@ -2,7 +2,7 @@
 
 1. Склонируйте репозиторий для frontend:
 
-> git clone https://github.com/KruchinkinaNataliya/mtuci_project.git
+`git clone https://github.com/KruchinkinaNataliya/mtuci_project.git
 
 2. Склонируйте репозиторий для backend:
 
