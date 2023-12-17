@@ -10,7 +10,7 @@
 
 2. Склонируйте репозиторий для backend:
 
-````git clone https://github.com/Ankoten/WebsiteProject````
+````git clone https://github.com/Ankoten/WebsiteProject.git````
 
 3. Установите Docker Desktop
 
