@@ -6,7 +6,7 @@
 
 2. Склонируйте репозиторий для backend:
 
-> git clone https://github.com/Ankoten/WebsiteProject
+````git clone https://github.com/Ankoten/WebsiteProject````
 
 3. Установите Docker Desktop
 
@@ -14,11 +14,11 @@
 
 5. В терминале прописать следующие команды:
 
-> docker-compose build
+````docker-compose build````
 
-> docker-compose up
+````docker-compose up````
 
 Для остановки нажмите CTRL+C
 Для того, чтобы снова запустить проект, введите в терминал:
 
-> docker-compose up
+````docker-compose up````
