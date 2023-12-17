@@ -46,9 +46,6 @@ $RECYCLE.BIN/
 .dropbox.cache
 
 .sass-cache/
-*.css.map
-
-*.css
 
 .tmp/
 
